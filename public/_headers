@@ -1,0 +1,194 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/donate/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/work/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/contact/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/about/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/how-enable-gutenburg-block-editor-for-custom-post-type-in-wordpress/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/run-some-commands-in-the-bulk-directory/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/psr-4-autoloading-in-the-wordpress-plugins/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/the-best-moments-that-were-spent-on-the-hormuz-island-nowruz-97/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/how-change-wordpress-urls-with-mysql/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/modify-mime-types-in-wordpress/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/boral-kibil-mahmut-orhan-herneise/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/wp-telegram-notifications-available-for-sale/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/nils-frahm-says/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/maher-zain-for-the-rest-of-my-life/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/verona-labs/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/vnv-nation-illusion/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/a-good-start/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/page/2
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/categories/music/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/categories/travell/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/categories/tutorials/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/categories/wordpress/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/categories/work/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/ambient/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/autoloading/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/bash/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/block-editor/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/blog/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/bulk/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/codecanyon/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/commands/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/custom-post-type/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/envato/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/gutenberg/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/hormuzisland/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/illusion/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/lyric/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/maher-zain/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/mime-types/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/music/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/mysql/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/namespace/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/nils-frahm/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/notifications/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/php/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/plugin/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/post-type/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/psr-4/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/script/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/song/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/telegram/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/travell/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/url/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/veronalabs/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/vmv-nation/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/walking/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/wordpress/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/wp-sms/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/author/admin
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/404/
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/404.html
+  Link: </webpack-runtime-c254b4a10e654123bc91.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
