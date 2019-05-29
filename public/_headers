@@ -1,0 +1,32 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/privacy-policy/
+  Link: </webpack-runtime-7767bf6aed66e7077e51.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/hello-world/
+  Link: </webpack-runtime-7767bf6aed66e7077e51.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/
+  Link: </webpack-runtime-7767bf6aed66e7077e51.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/categories/uncategorized/
+  Link: </webpack-runtime-7767bf6aed66e7077e51.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/tags/team/
+  Link: </webpack-runtime-7767bf6aed66e7077e51.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/author/mostafa
+  Link: </webpack-runtime-7767bf6aed66e7077e51.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/404/
+  Link: </webpack-runtime-7767bf6aed66e7077e51.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
+/404.html
+  Link: </webpack-runtime-7767bf6aed66e7077e51.js>; rel=preload; as=script
+  Link: </0-dab8f8de978219f2e507.js>; rel=preload; as=script
