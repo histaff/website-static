@@ -1,0 +1,31 @@
+body {
+  font-family: PT Serif;
+
+  header {
+    background-color: #FDFAFF;
+    display: block;
+    padding: 39px 0 90px 0;
+
+    .top-menu {
+      display: flex;
+      justify-content: space-between;
+
+      .get-started {
+        a {
+          width: 160px;
+          height: 47px;
+          font-family: Inter;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 47px;
+          display: block;
+          background: #8953B7;
+          border-radius: 4px;
+          text-align: center;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
