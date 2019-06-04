@@ -24,12 +24,12 @@ const Layout = ({children}) => (
     `} render={data => (
         <>
             <Header siteTitle={data.site.siteMetadata.title}/>
-            <div className={"container"}>
-                <main>{children}</main>
-                <footer>
+            <main>{children}</main>
+            <footer>
+                <div className={"container"}>
                     © {new Date().getFullYear()}, Built with {` `} <a href="https://www.gatsbyjs.org">Gatsby</a>
-                </footer>
-            </div>
+                </div>
+            </footer>
         </>
     )}/>
 )
