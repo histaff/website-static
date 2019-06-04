@@ -1,38 +1,34 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + WordPress Starter',
+    title: `HiStaff`,
+    description: `HiStaff main website which some bit pages!`,
+    author: `@mostafasoufi`,
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
+    `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-source-wordpress',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        // The base url to your WP site.
-        baseUrl: 'soufi.me',
-        // WP.com sites set to true, WP.org set to false
-        hostingWPCOM: false,
-        // The protocol. This can be http or https.
-        protocol: 'https',
-        // Use 'Advanced Custom Fields' Wordpress plugin
-        useACF: false,
-        auth: {},
-        // Set to true to debug endpoints on 'gatsby build'
-        verboseOutput: false,
+        name: `images`,
+        path: `${__dirname}/src/images`,
       },
     },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
-      // Removes unused css rules
-      resolve:'gatsby-plugin-purgecss',
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        // Activates purging in gatsby develop
-        develop: true,
-        // Purge only the main css file
-        purgeOnly: ['/all.sass'],
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#FF54AC`,
+        display: `minimal-ui`,
+        icon: `src/images/histaff.png`, // This path is relative to the root of the site.
       },
-    }, // must be after other CSS plugins
-    'gatsby-plugin-netlify', // make sure to keep it last in the array
+    },
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
   ],
 }
