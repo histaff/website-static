@@ -23,6 +23,13 @@ body {
     display: block;
     padding: 39px 0;
 
+    .logo {
+      img {
+        width: 151px;
+        height: 44px;
+      }
+    }
+
     .top-menu {
       display: flex;
       justify-content: space-between;

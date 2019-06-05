@@ -11,11 +11,11 @@ import {StaticQuery, graphql, Link} from "gatsby"
 
 import Header from "./header"
 import "../../static/styles/main.scss"
-import logo from "../../static/images/logo.png"
-import iconTwitter from "../../static/images/icon-twitter.png"
-import iconLinkedin from "../../static/images/icon-linkedin.png"
-import iconGitHub from "../../static/images/icon-github.png"
-import iconInstagram from "../../static/images/icon-instagram.png"
+import logo from "../../static/images/logo.svg"
+import iconTwitter from "../../static/images/icon-twitter.svg"
+import iconLinkedin from "../../static/images/icon-linkedin.svg"
+import iconGitHub from "../../static/images/icon-github.svg"
+import iconInstagram from "../../static/images/icon-instagram.svg"
 
 const Layout = ({children}) => (
     <StaticQuery query={graphql`
