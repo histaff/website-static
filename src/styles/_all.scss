@@ -1,5 +1,6 @@
 body {
   font-family: Inter;
+  color: #797283;
 
   p {
     font-family: Inter;
@@ -7,6 +8,14 @@ body {
 
   h1, h2, h3, h4, h5, h6 {
     font-family: PT Serif;
+  }
+
+  a {
+    color: #8953B7;
+
+    &:hover, &:active {
+      color: #8953b7;
+    }
   }
 
   header {
@@ -54,7 +63,6 @@ body {
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
-      color: #797283;
       line-height: 34px;
     }
 
@@ -65,38 +73,56 @@ body {
   }
 
   .second-feature {
-    display: flex;
-    justify-content: space-between;
-    padding: 76px 0;
+    .feature__item {
+      padding: 50px 0;
 
-    .content {
-      h2 {
-        font-size: 36px;
-        font-weight: bold;
-        margin-bottom: 15px;
-        color: #1E1C21;
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+
+        .col-6 {
+          align-self: center;
+        }
+      }
+
+      .content {
+        h2 {
+          font-size: 36px;
+          font-weight: bold;
+          margin-bottom: 15px;
+          color: #1E1C21;
+        }
+      }
+
+      .thumbnail {
+        img {
+          max-width: 100%;
+        }
+      }
+
+      .content {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+
+        p {
+          font-size: 18px;
+          line-height: 26px;
+        }
       }
     }
 
-    .thumbnail {
-      width: 50%;
-
-      img {
-        max-width: 100%;
+    @media screen and (max-width: 719px) {
+      .col-6.first {
+        order: 1;
       }
-    }
 
-    .content {
-      width: 45%;
-      justify-content: center;
-      display: flex;
-      flex-direction: column;
-      padding: 0 5%;
+      .col-6 {
+        order: 2;
+      }
 
-      p {
-        font-size: 18px;
-        color: #797283;
-        line-height: 26px;
+      .content {
+        text-align: center;
       }
     }
   }
@@ -129,6 +155,11 @@ body {
         justify-content: center;
         font-weight: bold;
         flex-direction: column;
+        color: #8953B7;
+
+        &:active {
+
+        }
       }
     }
 
@@ -143,6 +174,61 @@ body {
       p {
         font-size: 18px;
         line-height: 32px;
+      }
+    }
+  }
+
+  footer {
+    padding: 120px 0 45px;
+
+    .widget__item {
+      .about {
+        margin-top: 26px;
+      }
+
+      .about {
+        font-size: 14px;
+        line-height: 23px;
+      }
+
+      .links {
+        h4 {
+          font-size: 14px;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+
+        ul {
+          margin: 15px 0 0 0;
+
+          li {
+            line-height: 26px;
+
+            a {
+              font-size: 14px;
+              color: #797283;
+
+              &:hover, &:active {
+                color: #8953b7;
+              }
+            }
+          }
+        }
+      }
+
+      .social {
+        a {
+          margin-left: 20px;
+        }
+      }
+    }
+
+    .copyright {
+      text-align: center;
+      margin-top: 90px;
+
+      p {
+        font-size: 13px;
       }
     }
   }
