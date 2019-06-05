@@ -8,9 +8,7 @@
   HiStaff Static Website
 </h1>
 
-<h4>by Gatsby</h4>
-
-It's a starter static website which useful plugins based on Gatsby.
+It's a starter static website which useful plugins based on [Gatsby](https://www.gatsbyjs.org/) .
 
 ## 🚀 Quick start
 
