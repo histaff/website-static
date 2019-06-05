@@ -117,7 +117,7 @@ const IndexPage = () => (
             <div className={"container"}>
                 <div className={"content"}>
                     <h2>Sign up for free</h2>
-                    <p>Sign up and start improving the Human Resources management of your business with Factorial.</p>
+                    <p>Sign up and start increasing the productivity of your business with HiStaff.</p>
                 </div>
 
                 <div className={"button"}>
