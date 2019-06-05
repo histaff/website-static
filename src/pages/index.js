@@ -2,12 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../images/hero.png";
-import thumbnailEvent from "../images/feature-event.png"
-import thumbnailBoard from "../images/feature-board.png"
-import thumbnailNews from "../images/feature-news.png"
-import thumbnailTeams from "../images/feature-team.png"
-import thumbnailStaff from "../images/feature-user.png"
+import featureImage from "../../static/images/hero.png";
+import thumbnailEvent from "../../static/images/feature-event.png"
+import thumbnailBoard from "../../static/images/feature-board.png"
+import thumbnailNews from "../../static/images/feature-news.png"
+import thumbnailTeams from "../../static/images/feature-team.png"
+import thumbnailStaff from "../../static/images/feature-user.png"
 
 const IndexPage = () => (
     <Layout>

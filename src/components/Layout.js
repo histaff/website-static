@@ -10,12 +10,12 @@ import PropTypes from "prop-types"
 import {StaticQuery, graphql, Link} from "gatsby"
 
 import Header from "./header"
-import "../styles/main.scss"
-import logo from "../images/logo.png"
-import iconTwitter from "../images/icon-twitter.png"
-import iconLinkedin from "../images/icon-linkedin.png"
-import iconGitHub from "../images/icon-github.png"
-import iconInstagram from "../images/icon-instagram.png"
+import "../../static/styles/main.scss"
+import logo from "../../static/images/logo.png"
+import iconTwitter from "../../static/images/icon-twitter.png"
+import iconLinkedin from "../../static/images/icon-linkedin.png"
+import iconGitHub from "../../static/images/icon-github.png"
+import iconInstagram from "../../static/images/icon-instagram.png"
 
 const Layout = ({children}) => (
     <StaticQuery query={graphql`
