@@ -3,13 +3,13 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const AboutPage = () => (
+const TermsPage = () => (
     <Layout>
-        <SEO title="About"/>
+        <SEO title="Terms Of Use"/>
         <div className={"container"}>
-            <p>About content</p>
+            <p>Terms content</p>
         </div>
     </Layout>
 )
 
-export default AboutPage
+export default TermsPage
