@@ -1,5 +1,13 @@
 body {
-  font-family: PT Serif;
+  font-family: Inter;
+
+  p {
+    font-family: Inter;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: PT Serif;
+  }
 
   header {
     background-color: #FDFAFF;
@@ -14,7 +22,6 @@ body {
         a {
           width: 160px;
           height: 47px;
-          font-family: Inter;
           font-style: normal;
           font-weight: bold;
           font-size: 16px;
@@ -29,29 +36,114 @@ body {
     }
   }
 
-  .feature {
+  .primary-feature {
     text-align: center;
     padding: 100px 0 0 0;
     background-color: #fdfaff;
+    border-radius: 0px 0px 40px 40px;
 
     h1 {
-      font-family: PT Serif;
       font-style: normal;
       font-weight: bold;
       font-size: 48px;
       color: #1E1C21;
       padding: 0 0 15px 0;
     }
+
     p {
-      font-family: Inter;
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
       color: #797283;
       line-height: 34px;
     }
-    img{
+
+    img {
       margin-top: 61px;
+      max-width: 100%;
+    }
+  }
+
+  .second-feature {
+    display: flex;
+    justify-content: space-between;
+    padding: 76px 0;
+
+    .content {
+      h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #1E1C21;
+      }
+    }
+
+    .thumbnail {
+      width: 50%;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .content {
+      width: 45%;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      padding: 0 5%;
+
+      p {
+        font-size: 18px;
+        color: #797283;
+        line-height: 26px;
+      }
+    }
+  }
+
+  .call-to-action {
+    background-color: #8953B7;
+    color: #ffffff;
+    padding: 65px 0;
+    border-radius: 40px 40px 0px 0px;
+
+    .container {
+      display: flex;
+    }
+
+    .button {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      a {
+        font-size: 18px;
+        background-color: #ffffff;
+        width: 184px;
+        margin-left: auto;
+        border-radius: 4px;
+        height: 54px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-weight: bold;
+        flex-direction: column;
+      }
+    }
+
+    .content {
+      h2 {
+        font-size: 36px;
+        font-family: Inter;
+        font-weight: 600;
+        margin-bottom: 32px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 32px;
+      }
     }
   }
 }
