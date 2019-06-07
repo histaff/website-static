@@ -8,6 +8,7 @@ body {
 
   h1, h2, h3, h4, h5, h6 {
     font-family: PT Serif;
+    line-height: 43px;
   }
 
   a {
@@ -64,6 +65,7 @@ body {
       font-size: 48px;
       color: #1E1C21;
       padding: 0 0 15px 0;
+      line-height: 54px;
     }
 
     p {
@@ -76,6 +78,16 @@ body {
     img {
       margin-top: 61px;
       max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 719px) {
+    .primary-feature {
+      padding-top: 1px;
+
+      h1 {
+        padding-top: 0;
+      }
     }
   }
 
@@ -130,6 +142,12 @@ body {
 
       .content {
         text-align: center;
+        display: block !important;
+        margin: 0;
+      }
+
+      h2 {
+        margin-top: 10px;
       }
     }
   }
@@ -217,6 +235,7 @@ body {
           font-weight: bold;
           text-transform: uppercase;
           font-family: Inter;
+          line-height: 0;
         }
 
         ul {
@@ -238,8 +257,18 @@ body {
       }
 
       .social {
+        text-align: right;
+
+        @media screen and (max-width: 719px) {
+          text-align: center;
+        }
+
         a {
           margin-left: 20px;
+
+          &:first-child {
+            margin-left: 0;
+          }
         }
       }
     }
@@ -250,6 +279,12 @@ body {
 
       p {
         font-size: 13px;
+      }
+    }
+
+    @media screen and (max-width: 719px) {
+      .copyright {
+        margin-top: 31px;
       }
     }
   }

@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: `HiStaff`,
-        description: `HiStaff main website which some bit pages!`,
+        description: `Make your Staff and Workspace Happy`,
         author: `@mostafasoufi`,
     },
     plugins: [
