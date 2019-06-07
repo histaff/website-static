@@ -29,6 +29,7 @@ body {
         height: 44px;
       }
     }
+
     .top-menu {
       display: flex;
       justify-content: space-between;
@@ -181,6 +182,19 @@ body {
         font-size: 18px;
         line-height: 32px;
       }
+    }
+  }
+
+  .content {
+    line-height: 26px;
+    margin: 47px 0 23px;
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    .title {
+      margin: 0 0 44px;
     }
   }
 
