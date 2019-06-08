@@ -1,3 +1,5 @@
+$break-small: 719px;
+
 body {
   font-family: Inter;
   color: #797283;
@@ -59,6 +61,14 @@ body {
     background-color: #fdfaff;
     border-radius: 0px 0px 40px 40px;
 
+    @media screen and (max-width: $break-small) {
+      padding-top: 1px;
+
+      h1 {
+        padding-top: 0;
+      }
+    }
+
     h1 {
       font-style: normal;
       font-weight: bold;
@@ -81,16 +91,6 @@ body {
     }
   }
 
-  @media screen and (max-width: 719px) {
-    .primary-feature {
-      padding-top: 1px;
-
-      h1 {
-        padding-top: 0;
-      }
-    }
-  }
-
   .second-feature {
     .feature__item {
       padding: 50px 0;
@@ -104,12 +104,21 @@ body {
         }
       }
 
-      .content {
+      .feature__content {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+
         h2 {
           font-size: 36px;
           font-weight: bold;
           margin-bottom: 15px;
           color: #1E1C21;
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 26px;
         }
       }
 
@@ -118,20 +127,9 @@ body {
           max-width: 100%;
         }
       }
-
-      .content {
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-
-        p {
-          font-size: 18px;
-          line-height: 26px;
-        }
-      }
     }
 
-    @media screen and (max-width: 719px) {
+    @media screen and (max-width: $break-small) {
       .col-6.first {
         order: 1;
       }
@@ -188,12 +186,12 @@ body {
       }
     }
 
-    .content {
+    .call-to-action__content {
       h2 {
         font-size: 36px;
         font-family: Inter;
         font-weight: 600;
-        margin-bottom: 32px;
+        margin: 0 0 32px;
       }
 
       p {
@@ -219,7 +217,15 @@ body {
   footer {
     padding: 120px 0 45px;
 
+    @media screen and (max-width: $break-small) {
+      padding: 50px 0 45px;
+    }
+
     .widget__item {
+      @media screen and (max-width: $break-small) {
+        padding: 15px 0 0;
+      }
+
       .about {
         margin-top: 26px;
       }
@@ -259,12 +265,21 @@ body {
       .social {
         text-align: right;
 
-        @media screen and (max-width: 719px) {
+        @media screen and (max-width: $break-small) {
           text-align: center;
         }
 
         a {
           margin-left: 20px;
+
+          img {
+            filter: contrast(0);
+            transition: 0.15s;
+          }
+
+          &:hover img {
+            filter: contrast(1);
+          }
 
           &:first-child {
             margin-left: 0;
@@ -277,14 +292,12 @@ body {
       text-align: center;
       margin-top: 90px;
 
+      @media screen and (max-width: $break-small) {
+        margin-top: 31px;
+      }
+
       p {
         font-size: 13px;
-      }
-    }
-
-    @media screen and (max-width: 719px) {
-      .copyright {
-        margin-top: 31px;
       }
     }
   }
