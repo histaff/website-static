@@ -1,16 +1,25 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const AboutPage = () => (
-  <Layout>
-    <SEO title="About" />
-    <h1>Hi from the about page</h1>
-    <p>Welcome to about</p>
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
+    <Layout>
+        <SEO title="About"/>
+        <div className={"container"}>
+            <div className={"content"}>
+                <div className={"title"}>
+                    <h1>About</h1>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
+                    elit. Aenean commodo ligula eget dolor. Aenean massa.
+                    Cum sociis natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus. Donec quam felis,
+                    ultricies nec, pellentesque eu, pretium quis, sem.</p>
+            </div>
+        </div>
+    </Layout>
 )
 
 export default AboutPage
