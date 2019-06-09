@@ -158,6 +158,14 @@ body {
 
     .container {
       display: flex;
+
+      @media screen and (max-width: $break-small) {
+        display: block;
+
+        .call-to-action__content {
+          text-align: center;
+        }
+      }
     }
 
     .button {
@@ -165,6 +173,12 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
+
+      @media screen and (max-width: $break-small) {
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+      }
 
       a {
         font-size: 18px;
@@ -179,6 +193,10 @@ body {
         font-weight: bold;
         flex-direction: column;
         color: #8953B7;
+
+        @media screen and (max-width: $break-small) {
+          margin: 0 auto;
+        }
 
         &:active {
 
