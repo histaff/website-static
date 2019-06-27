@@ -13,14 +13,14 @@ const IndexPage = () => (
     <Layout>
         <SEO title="Make your Staff and Workspace Happy"/>
 
-        <div className={"primary-feature"}>
+        <div className={"page-header home"}>
             <h1>Make your Staff and Workspace Happy</h1>
             <p>HiStaff gives your complex the opportunity to increase the percentage of happiness<br/>and enjoyment of your staff and as a result, bring productivity to your workspace.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
         <div className={"container"}>
-            <div className={"second-feature"}>
+            <div className={"features"}>
                 <div className={"feature__item"}>
                     <div className={"row"}>
                         <div className={"col-6 first"}>
