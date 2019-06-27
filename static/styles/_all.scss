@@ -11,6 +11,7 @@ body {
   h1, h2, h3, h4, h5, h6 {
     font-family: PT Serif;
     line-height: 43px;
+    color: #1E1C21;
   }
 
   a {
@@ -55,16 +56,16 @@ body {
     }
   }
 
-  .primary-feature {
+  .page-header {
     text-align: center;
-    padding: 100px 0 0 0;
+    padding: 100px 0 100px 0;
     background-color: #fdfaff;
     border-radius: 0px 0px 40px 40px;
 
     @media screen and (max-width: $break-small) {
       padding-top: 1px;
 
-      h1 {
+      h1, h2 {
         padding-top: 0;
       }
     }
@@ -75,6 +76,14 @@ body {
       font-size: 48px;
       color: #1E1C21;
       padding: 0 0 15px 0;
+      line-height: 54px;
+    }
+
+    h2 {
+      font-size: 36px;
+      font-style: normal;
+      font-weight: bold;
+      color: #1E1C21;
       line-height: 54px;
     }
 
@@ -89,9 +98,13 @@ body {
       margin-top: 61px;
       max-width: 100%;
     }
+
+    &.home {
+      padding-bottom: 30px;
+    }
   }
 
-  .second-feature {
+  .features {
     .feature__item {
       padding: 50px 0;
 
@@ -229,6 +242,31 @@ body {
 
     .title {
       margin: 0 0 44px;
+    }
+  }
+
+  .targets {
+    margin: 120px 0 0;
+
+    .title {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 99px;
+      color: #1E1C21;
+    }
+
+    .item {
+      margin: 0 0 92px 0;
+
+      h3 {
+        font-size: 18px;
+        margin: 15px 0 15px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 26px;
+      }
     }
   }
 
