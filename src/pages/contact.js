@@ -2,8 +2,6 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import informationImage from "../../static/images/Information-document.svg";
-import eventImage from "../../static/images/Event-managment.svg";
 
 const ContactPage = () => (
     <Layout>
