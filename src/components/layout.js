@@ -53,7 +53,7 @@ const Layout = ({children}) => (
                                     <h4>HiStaff</h4>
                                     <ul>
                                         <li><Link to="/about" title={"About Us"}>About</Link></li>
-                                        <li><a href="https://histaff.io/blog" title={"HiStaff Blog"}>Blog</a></li>
+                                        <li><a title={"Under Construction"}>Blog</a></li>
                                     </ul>
                                 </ul>
                             </div>
