@@ -317,6 +317,16 @@ body {
             }
           }
         }
+
+        .links__special {
+          background-color: #8953b7;
+          color: #ffffff;
+          border-radius: 4px;
+          padding: 2px 5px;
+          &:hover {
+            color: #ffffff;
+          }
+        }
       }
 
       .social {
