@@ -53,7 +53,7 @@ const Layout = ({children}) => (
                                     <h4>HiStaff</h4>
                                     <ul>
                                         <li><Link to="/about" title={"About Us"}>About</Link></li>
-                                        <li><a title={"Under Construction"}>Blog</a></li>
+                                        <li><a href={"https://histaff.io/blog"}>Blog</a></li>
                                         <li><a className={"links__special"} href={"https://feedback.histaff.io/"} target={"_blank"} title={"We look forward to receiving your great feedback"}>Feedback</a></li>
                                     </ul>
                                 </ul>
