@@ -62,15 +62,6 @@ body {
     background-color: #fdfaff;
     border-radius: 0px 0px 40px 40px;
 
-    @media screen and (max-width: $break-small) {
-      padding-top: 1px;
-      padding-bottom: 50px;
-
-      h1, h2 {
-        padding-top: 0;
-      }
-    }
-
     h1 {
       font-style: normal;
       font-weight: bold;
@@ -97,11 +88,24 @@ body {
 
     img {
       margin-top: 61px;
-      max-width: 100%;
+      max-width: 65%;
     }
 
     &.home {
       padding-bottom: 30px;
+    }
+
+    @media screen and (max-width: $break-small) {
+      padding-top: 1px;
+      padding-bottom: 50px;
+
+      h1, h2 {
+        padding-top: 0;
+      }
+
+      img {
+        max-width: 80%;
+      }
     }
   }
 
