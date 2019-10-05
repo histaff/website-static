@@ -276,6 +276,35 @@ body {
     }
   }
 
+  .bg-color{
+    background-color: #fdfaff;
+    padding: 52px 0;
+  }
+
+  .integration-guid {
+    width: 730px;
+    margin: 0 auto;
+    color: #1E1C21;
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: Inter;
+    }
+
+    .title {
+      text-align: center;
+
+      h2{
+        font-size: 36px;
+      }
+    }
+
+    .content{
+      h1, h2, h3, h4, h5, h6{
+         margin: 0;
+      }
+    }
+  }
+
   footer {
     padding: 120px 0 45px;
 
