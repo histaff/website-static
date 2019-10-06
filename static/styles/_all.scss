@@ -276,13 +276,13 @@ body {
     }
   }
 
-  .bg-color{
+  .bg-color {
     background-color: #fdfaff;
     padding: 52px 0;
   }
 
   .integration-guid {
-    width: 730px;
+    width: 80%;
     margin: 0 auto;
     color: #1E1C21;
 
@@ -293,14 +293,19 @@ body {
     .title {
       text-align: center;
 
-      h2{
+      h2 {
         font-size: 36px;
       }
     }
 
-    .content{
-      h1, h2, h3, h4, h5, h6{
-         margin: 0;
+    .content {
+      h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
       }
     }
   }
@@ -357,6 +362,7 @@ body {
           color: #ffffff;
           border-radius: 4px;
           padding: 2px 5px;
+
           &:hover {
             color: #ffffff;
           }
