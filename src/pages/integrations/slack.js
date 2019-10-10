@@ -16,7 +16,7 @@ const AboutPage = () => (
         <div className={"page-header"}>
             <img src={SlackHiStaffImage}/>
             <h2>HiStaff and Slack</h2>
-            <p>HiStaff is excited to announce a new integration with Slack<br />that can be efficient for you if you use the Slack</p>
+            <p>HiStaff is excited to announce a new integration with Slack<br />if you use the Slack it can be really efficient for your team.</p>
         </div>
 
         <div className={"container"}>
@@ -32,7 +32,7 @@ const AboutPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Slack Event Webhook</h2>
-                                <p>With this integration, you can send Event alert to any channel while a new event created by anyone.</p>
+                                <p>The ability to send Event alert to any channel while a new event created by anyone.</p>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const AboutPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Slack Note Webhook</h2>
-                                <p>Also, the staff can see an alert about any post on the public board.</p>
+                                <p>Staff can see an alert about any post on the public board.</p>
                             </div>
                         </div>
                     </div>
@@ -83,9 +83,9 @@ const AboutPage = () => (
 
                     <div className={"content"}>
                         <h4>Overview</h4>
-                        <p>You need to be an admin in order to enable the Slack integration. With the Slack integration, you can send an alert to Slack.<br /><br />A company admin will first need to enable the integration one time for the whole company to use.</p>
+                        <p>You need to be an admin in order to enable the Slack integration. With the Slack integration, you can send an alert to Slack.</p>
                         <h4>Step 1</h4>
-                        <p>Go into your Settings and select Integrations. Scroll down the list, and click on Add to Slack button.</p>
+                        <p>An admin company needs to enable the integration one time for the whole company to use.</p>
                         <img alt={"News"} src={thumbnailGuid1}/>
 
                         <h4>Step 2</h4>
