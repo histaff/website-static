@@ -9,7 +9,7 @@ import thumbnailNoteWebhook from "../../../static/images/integration/slack-note-
 import thumbnailGuid1 from "../../../static/images/integration/slack-guid-1.png";
 import thumbnailGuid2 from "../../../static/images/integration/slack-guid-2.png";
 
-const AboutPage = () => (
+const SlackPage = () => (
     <Layout>
         <SEO title="Slack Integration"/>
 
@@ -98,4 +98,4 @@ const AboutPage = () => (
     </Layout>
 )
 
-export default AboutPage
+export default SlackPage
