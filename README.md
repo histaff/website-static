@@ -18,7 +18,7 @@ It's a starter static website which useful plugins based on [Gatsby](https://www
    npm install -g gatsby-cli
    ```
 
-2. **Create a Gatsby site from HiStaff.**
+2. **Create a new Gatsby site from HiStaff.**
 
    ```sh
    gatsby new histaff https://github.com/histaff/website-static/
@@ -33,7 +33,7 @@ It's a starter static website which useful plugins based on [Gatsby](https://www
    gatsby develop
    ```
 
-4. **Open the source code and start editing!**
+4. **Open the first source code and start editing!**
 
    Your site is now running at `http://localhost:8000`. Open the `histaff` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes, and the browser will update in real time!
 
