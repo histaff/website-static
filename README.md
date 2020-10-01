@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  HiStaff Static Website
+  HiStaff Amazing Website
 </h1>
 
 It's a starter static website which useful plugins based on [Gatsby](https://www.gatsbyjs.org/) .
