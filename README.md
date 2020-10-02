@@ -44,3 +44,5 @@ At this point, you’ve got a fully functional Gatsby website. For additional in
 * Web font loader (Google and custom font)
 * Sample pages for starter
 * Clean code and structure
+
+### Enjoy starting :smile:
