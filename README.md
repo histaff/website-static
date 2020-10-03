@@ -24,7 +24,7 @@ HiStaff Static is a starter static website which useful plugins based on [Gatsby
    gatsby new histaff https://github.com/histaff/website-static/
    ```
 
-3. **Start the site in `develop` mode.**
+3. **Start the sites in `develop` mode.**
 
    Next, move into your new site’s directory and start it up:
 
