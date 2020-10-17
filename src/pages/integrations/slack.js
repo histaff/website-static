@@ -14,7 +14,7 @@ const AboutPage = () => (
         <SEO title="Slack Integration"/>
 
         <div className={"page-header"}>
-            <img src={SlackHiStaffImage}/>
+            <img alt={"Slack"} src={SlackHiStaffImage}/>
             <h2>HiStaff and Slack</h2>
             <p>HiStaff is excited to announce a new integration with Slack<br />if you use the Slack it can be really efficient for your team.</p>
         </div>
