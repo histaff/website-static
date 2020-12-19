@@ -29,17 +29,26 @@ module.exports = {
         },
         `gatsby-plugin-sass`,
         {
-            resolve: 'gatsby-plugin-web-font-loader',
+            resolve: "gatsby-omni-font-loader",
             options: {
-                google: {
-                    families: ['PT Serif'],
+              enableListener: true,
+              preconnect: ["https://fonts.gstatic.com"],
+      
+              web: [
+                {
+                  file:
+                    "https://fonts.googleapis.com/css2?family=PT+Serif&display=swap",
+                  name: "PT Serif",
                 },
-                custom: {
-                    families: ['Inter'],
-                    urls: ['/fonts/fonts.css']
-                }
-            }
-        },
+              ],
+              custom: [
+                {
+                  name: "Inter",
+                  file: "/fonts/fonts.css",
+                },
+              ],
+            },
+          },
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.dev/offline
         // `gatsby-plugin-offline`,
