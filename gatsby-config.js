@@ -33,7 +33,7 @@ module.exports = {
             options: {
               enableListener: true,
               preconnect: ["https://fonts.gstatic.com"],
-      
+
               web: [
                 {
                   file:
@@ -52,5 +52,47 @@ module.exports = {
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.dev/offline
         // `gatsby-plugin-offline`,
+        {
+            resolve: `gatsby-plugin-google-analytics-gdpr`,
+            options: {
+                // The property ID; the tracking code won't be generated without it.
+                trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+                // Optional parameter (default false) - Enable analytics in development mode.
+                enableDevelopment: true, // default false
+                // Optional parameter (default true) - Some countries (such as Germany) require you to use the _anonymizeIP function for Google Analytics. Otherwise you are not allowed to use it.
+                anonymizeIP: true,
+                // Optional parameter (default false) - Starts google analytics with cookies enabled. In some countries (such as Germany) this is not allowed.
+                autoStartWithCookiesEnabled: false,
+                // Optional parameter - Configuration for react-ga and google analytics
+                reactGaOptions: {
+                    debug: true,
+                    gaOptions: {
+                        sampleRate: 10
+                    }
+                }
+            },
+        },
+        {
+            resolve: `gatsby-plugin-gdpr-cookies`,
+            options: {
+                googleAnalytics: {
+                    trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID', // leave empty if you want to disable the tracker
+                    cookieName: 'gatsby-gdpr-google-analytics', // default
+                    anonymize: true, // default
+                    allowAdFeatures: false // default
+                },
+                googleTagManager: {
+                    trackingId: 'YOUR_GOOGLE_TAG_MANAGER_TRACKING_ID', // leave empty if you want to disable the tracker
+                    cookieName: 'gatsby-gdpr-google-tagmanager', // default
+                    dataLayerName: 'dataLayer', // default
+                },
+                facebookPixel: {
+                    pixelId: 'YOUR_FACEBOOK_PIXEL_ID', // leave empty if you want to disable the tracker
+                    cookieName: 'gatsby-gdpr-facebook-pixel', // default
+                },
+                // defines the environments where the tracking should be available  - default is ["production"]
+                environments: ['production', 'development']
+            },
+        },
     ],
 }
