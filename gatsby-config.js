@@ -56,7 +56,7 @@ module.exports = {
             resolve: `gatsby-plugin-google-analytics-gdpr`,
             options: {
                 // The property ID; the tracking code won't be generated without it.
-                trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+                trackingId: "UA-180346042-2",
                 // Optional parameter (default false) - Enable analytics in development mode.
                 enableDevelopment: true, // default false
                 // Optional parameter (default true) - Some countries (such as Germany) require you to use the _anonymizeIP function for Google Analytics. Otherwise you are not allowed to use it.
@@ -65,7 +65,7 @@ module.exports = {
                 autoStartWithCookiesEnabled: false,
                 // Optional parameter - Configuration for react-ga and google analytics
                 reactGaOptions: {
-                    debug: true,
+                    debug: false,
                     gaOptions: {
                         sampleRate: 10
                     }
@@ -76,18 +76,18 @@ module.exports = {
             resolve: `gatsby-plugin-gdpr-cookies`,
             options: {
                 googleAnalytics: {
-                    trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID', // leave empty if you want to disable the tracker
+                    trackingId: 'UA-180346042-2', // leave empty if you want to disable the tracker
                     cookieName: 'gatsby-gdpr-google-analytics', // default
                     anonymize: true, // default
                     allowAdFeatures: false // default
                 },
                 googleTagManager: {
-                    trackingId: 'YOUR_GOOGLE_TAG_MANAGER_TRACKING_ID', // leave empty if you want to disable the tracker
+                    trackingId: '', // leave empty if you want to disable the tracker
                     cookieName: 'gatsby-gdpr-google-tagmanager', // default
                     dataLayerName: 'dataLayer', // default
                 },
                 facebookPixel: {
-                    pixelId: 'YOUR_FACEBOOK_PIXEL_ID', // leave empty if you want to disable the tracker
+                    pixelId: '', // leave empty if you want to disable the tracker
                     cookieName: 'gatsby-gdpr-facebook-pixel', // default
                 },
                 // defines the environments where the tracking should be available  - default is ["production"]

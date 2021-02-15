@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import {StaticQuery, graphql, Link} from "gatsby"
 
+import CookieConsent from 'react-cookie-consent';
 import Header from "./header"
 import "../../static/styles/main.scss"
 import logo from "../../static/images/logo.svg"
@@ -29,6 +30,12 @@ const Layout = ({children}) => (
     `} render={data => (
         <>
             <Header siteTitle={data.site.siteMetadata.title}/>
+            <CookieConsent
+                location="bottom"
+                buttonText="Accept"
+                cookieName="gatsby-gdpr-google-analytics">
+                This site uses cookies ...
+            </CookieConsent>
             <main>{children}</main>
             <footer>
                 <div className={"container"}>
