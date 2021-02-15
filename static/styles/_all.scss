@@ -396,8 +396,9 @@ body {
     }
 
     .copyright {
-      text-align: center;
-      margin-top: 90px;
+      margin-top: 10px;
+      margin-bottom: 25px;
+      line-height: 20px;
 
       @media screen and (max-width: $break-small) {
         margin-top: 31px;
@@ -405,7 +406,40 @@ body {
 
       p {
         font-size: 13px;
+
+        .hide-on-desktop {
+          display: none;
+
+          @media screen and (max-width: $break-small) {
+            display: block;
+          }
+        }
       }
     }
+  }
+}
+
+.vl-logo {
+  font-size: 13px;
+  line-height: 20px;
+
+  @media screen and (max-width: $break-small) {
+    margin-top: 16px;
+  }
+
+  a {
+    filter: contrast(0) brightness(0.8);
+    transition: 0.3s;
+    font-size: 13px;
+
+    &:hover {
+      filter: unset;
+    }
+  }
+
+  img {
+    width: 95px;
+    margin-left: 5px;
+    vertical-align: bottom;
   }
 }

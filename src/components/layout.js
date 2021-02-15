@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import {StaticQuery, graphql, Link} from "gatsby"
+import {graphql, Link, StaticQuery} from "gatsby"
 
 import CookieConsent from 'react-cookie-consent';
 import Header from "./header"
@@ -17,6 +17,7 @@ import iconTwitter from "../../static/images/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icon-linkedin.svg"
 import iconGitHub from "../../static/images/icon-github.svg"
 import iconInstagram from "../../static/images/icon-instagram.svg"
+import iconVeronalabs from "../../static/images/veronalabs-logo.svg"
 
 const Layout = ({children}) => (
     <StaticQuery query={graphql`
@@ -34,7 +35,7 @@ const Layout = ({children}) => (
                 location="bottom"
                 buttonText="Accept"
                 cookieName="gatsby-gdpr-google-analytics">
-                This site uses cookies ...
+                We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.
             </CookieConsent>
             <main>{children}</main>
             <footer>
@@ -93,8 +94,17 @@ const Layout = ({children}) => (
                         </div>
                     </div>
 
-                    <div className={"copyright"}>
-                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="https://histaff.io" title={"HiStaff"}>HiStaff</a>. All rights reserved.</p>
+                    <div className={"row"}>
+                        <div className={"col-12"}>
+                            <div className={"copyright"}>
+                                <p>Copyright {new Date().getFullYear()}, {` `}
+                                    <a href="https://histaff.io" title={"HiStaff"}>HiStaff</a>. All rights reserved.<br className={"hide-on-desktop"} /> (VeronaLabs OÜ, 16160131)</p>
+                            </div>
+
+                            <div className={"vl-logo"}>
+                                By <a href="https://veronalabs.com" target={"_blank"} title={"Veronalabs"}><img alt={"Veronalabs"} src={iconVeronalabs}/></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </footer>
